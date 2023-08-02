@@ -1,3 +1,36 @@
+# WLEd Related Notes
+
+## E131
+
+https://auschristmaslighting.com/wiki/E1-31-Multicast-vs-Unicast
+
+Unicast
+Pros
+    Home Wi-Fi networks won't be affected
+Cons
+    A specific DMX universe may only be sent to one controller
+    You need to know the IP address of the controller you want to send a DMX universe to (and to keep it updated if your configuration changes)
+
+Multicast
+Pros
+    Multiple controllers can receive the same DMX universe
+    TBA
+Cons
+
+    Interferes and disrupts home Wi-Fi networks (can be avoided by running a separate network or with a network switch/router with IGMP Snooping enabled)
+    TBA
+
+
+
+## Hardware
+
+### Led Ring
+
+241leds = 1 + 8 + 12 + 16 + 24 + 32 + 40 + 48 + 60
+
+
+### ESP32
+
 ESP-32S ESP-WROOM-32 ESP32 WIFI Dual Core CPU Development Board 802.11b/g Wi Fi BT Module Ultra-Low Power Consumption
 
 
@@ -32,3 +65,6 @@ Power supply range: USB power supply: 5V pin power supply: 5.0V~12V
 Working temperature: - 20 ~ 85 ℃
 Storage environment: - 40 ~ 90℃, < 90% RH
 Product size: 52 * 29 * 15mm/2.04*1.14*0.59''
+
+
+
